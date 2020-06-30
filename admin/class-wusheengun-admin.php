@@ -131,11 +131,11 @@ class Wusheengun_Admin {
 			$name = isset($_REQUEST['name']) ? $_REQUEST['name'] : "";
 			$age = isset($_REQUEST['age']) ? $_REQUEST['age'] : "";
 			$levels = isset($_REQUEST['level']) ? $_REQUEST['level'] : "";
-			$levels = json_encode($levels);
+			$levels_for = json_encode($levels);
 			$wpdb->insert($this->tables->wusheenguntable(), array(
 				"name" => $name,
 				"age" => $age,
-				"member_for" => $levels
+				"member_for" => $levels_for
 			));
 			if($wpdb->insert_id > 0){
 				echo json_encode(array(

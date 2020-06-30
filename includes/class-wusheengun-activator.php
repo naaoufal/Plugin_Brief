@@ -43,8 +43,8 @@ class Wusheengun_Activator {
 			$sqlQuery = 'CREATE TABLE `'.$this->table->wusheenguntable().'` (
 				`id` int(11) NOT NULL AUTO_INCREMENT,
 				`name` varchar(255) DEFAULT NULL,
-				`email` varchar(255) DEFAULT NULL,
-				`phone_no` varchar(20) DEFAULT NULL,
+				`age` int(255) DEFAULT NULL,
+				`members_level` varchar(20) DEFAULT NULL,
 				PRIMARY KEY (`id`)
 			   ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4';
 			dbDelta($sqlQuery);

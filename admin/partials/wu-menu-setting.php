@@ -1,4 +1,4 @@
-<?php wp_enqueue_media(); ?>
+<?php wp_enqueue_media() ?>
 <div class="container" style="width:90%">
     <div style="margin-top : 50px;">
         <div class="panel panel-primary">
@@ -17,7 +17,7 @@
                 </div>
             </div>
             <div class="form-group">
-                <label class="control-label col-sm-2" for="image">Upload Image :</label>
+                <label class="control-label col-sm-2" for="image">Membre Age :</label>
                 <!-- <input type="file" class="form-control" id="image" name="image" for="image" required> -->
                 <div class="col-sm-10">
                     <!-- <button class="btn btn-info" type="button" id="test">Upload Image</button>

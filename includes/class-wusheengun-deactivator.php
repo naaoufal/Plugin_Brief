@@ -35,7 +35,7 @@ class Wusheengun_Deactivator {
 	 */
 	public function deactivate() {
 		global $wpdb;
-		$wpdb->query("Drop table IF EXISTS ".$this->table->wusheenguntable());
+		$wpdb->query("DROP table IF EXISTS ".$this->table->wusheenguntable());
 	}
 	// public function wusheenguntable(){
 	// 	global $wpdb;

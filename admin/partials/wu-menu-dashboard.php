@@ -13,7 +13,7 @@
                 <tr>
                     <th>Serial Number</th>
                     <th>Name</th>
-                    <th>Image</th>
+                    <th>Age (years)</th>
                     <th>Member Level</th>
                     <!-- <th>Actions</th> -->
                 </tr>
@@ -41,7 +41,7 @@
                                         $members_levels = json_decode($data['member_for']);
                                         // print_r ($members_levels);
                                         foreach($members_levels as $level){
-                                            echo $level." , ";
+                                            echo $level ." , ";
                                         }
                                     ?>
                                 </td>
@@ -58,7 +58,7 @@
                 <tr>
                     <th>Serial Number</th>
                     <th>Name</th>
-                    <th>Image</th>
+                    <th>Age (years)</th>
                     <th>Member Level</th>
                     <!-- <th>Create At</th>
                     <th>Actions</th> -->
